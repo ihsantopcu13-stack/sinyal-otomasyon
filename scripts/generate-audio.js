@@ -70,7 +70,11 @@ async function main() {
   const meta = {
     dayNumber,
     topicIndex,
-    audioFile: audioFileName,
+    // `public/` klasörüne göre GÖRECELİ yol — Remotion'ın staticFile()'ına
+    // doğrudan bu şekilde verilir (render-video.js). Sadece dosya adı
+    // verilirse (audio/ öneki olmadan) Remotion public/ kökünde arar ve
+    // 404 ile başarısız olur — bu alan bilerek "audio/..." ile başlıyor.
+    audioFile: `audio/${audioFileName}`,
     durationInSeconds,
     generatedAt: new Date().toISOString(),
   };
