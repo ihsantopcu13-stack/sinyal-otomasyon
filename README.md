@@ -110,8 +110,11 @@ asset yükleyebilmesi için gerekli.
 
 ## Bilinen sınırlamalar / sonraki adımlar
 
-- ElevenLabs sesi varsayılan olarak genel bir multilingual sestir
-  (`ELEVENLABS_VOICE_ID` ile kendi Türkçe sesinizi seçin).
+- ElevenLabs sesi varsayılan olarak George'dur (`JBFqnCBsd6RMkjVDRZzb`) —
+  ücretsiz ElevenLabs planında API'den kullanılabilen bir premade ses.
+  Voice Library'deki sesler ücretsiz planda API'ye kapalı (`payment_required`
+  hatası verir); kendi klonladığınız/"My Voices"a eklediğiniz bir ses
+  kullanmak isterseniz `ELEVENLABS_VOICE_ID` ile değiştirin.
 - Slide zamanlaması toplam ses süresine göre eşit dağıtılır; seslendirmenin
   cümle sınırlarıyla birebir senkronize edilmesi (kelime-seviyesi zaman damgası)
   kapsam dışıdır — istenirse ElevenLabs'ın "timestamps" özelliğiyle eklenebilir.

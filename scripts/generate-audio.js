@@ -4,9 +4,10 @@
 // süresini 50-60 saniye aralığında buna göre ayarlar.)
 //
 // Gerekli env: ELEVENLABS_API_KEY
-// Opsiyonel env: ELEVENLABS_VOICE_ID (varsayılan: Türkçe destekleyen
-// multilingual bir ElevenLabs sesi — kendi hesabınızdaki bir Türkçe sesin
-// ID'siyle değiştirin), ELEVENLABS_MODEL_ID (varsayılan: eleven_multilingual_v2)
+// Opsiyonel env: ELEVENLABS_VOICE_ID (varsayılan: George — ücretsiz
+// ElevenLabs planında API'den kullanılabilen premade seslerden biri;
+// Voice Library'deki sesler ücretsiz planda API'ye kapalı olduğu için
+// bilinçli olarak bu seçildi), ELEVENLABS_MODEL_ID (varsayılan: eleven_multilingual_v2)
 
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -18,7 +19,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_AUDIO_DIR = path.join(__dirname, '..', 'public', 'audio');
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
-const ELEVENLABS_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || '21m00Tcm4TlvDq8ikWAM'; // Rachel — hesabınızda Türkçe için tercih ettiğiniz sesle değiştirin
+const ELEVENLABS_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || 'JBFqnCBsd6RMkjVDRZzb'; // George — ücretsiz planda API'den çalışan premade ses
 const ELEVENLABS_MODEL_ID = process.env.ELEVENLABS_MODEL_ID || 'eleven_multilingual_v2';
 
 async function synthesize(text) {
