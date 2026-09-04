@@ -1,0 +1,31 @@
+{
+  "name": "sinyal-otomasyon",
+  "version": "1.0.0",
+  "description": "Sinyal Avcısı - Instagram Reels video otomasyonu (Remotion + ElevenLabs + Buffer)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio src/Root.tsx",
+    "generate-audio": "node scripts/generate-audio.js",
+    "render-video": "node scripts/render-video.js",
+    "publish-buffer": "node scripts/publish-buffer.js",
+    "daily": "node scripts/generate-audio.js && node scripts/render-video.js && node scripts/publish-buffer.js",
+    "test": "node scripts/run-tests.js"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.520",
+    "@remotion/cli": "4.0.520",
+    "@remotion/renderer": "4.0.520",
+    "music-metadata": "11.15.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.520"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

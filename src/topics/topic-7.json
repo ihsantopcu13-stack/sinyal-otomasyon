@@ -1,0 +1,14 @@
+{
+  "id": 7,
+  "type": "lesson",
+  "title": "Modal Perfect",
+  "voiceover": "Dört anlam, dört kelime. Must have V3, kesin olmuştur. Should have V3, yapmalıydı ama yapmadı. Could have V3, yapabilirdi ama yapmadı. Might have V3, muhtemelen olmuştur. He must have left early. She should have studied more. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "MODAL PERFECT",
+    "formula": "MUST HAVE V3 = kesin\nSHOULD HAVE V3 = keşke\nCOULD HAVE V3 = yapabilirdi\nMIGHT HAVE V3 = muhtemelen",
+    "example": "He must have left early.\nShe should have studied more.",
+    "exampleHighlight": "must have / should have",
+    "tip": "MUST = kanıta dayalı kesinlik.\nSHOULD = pişmanlık / eleştiri.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

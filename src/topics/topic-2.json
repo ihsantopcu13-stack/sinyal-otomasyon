@@ -1,0 +1,14 @@
+{
+  "id": 2,
+  "type": "lesson",
+  "title": "Although vs Despite",
+  "voiceover": "Although ve Despite ikisi de rağmen ama yapı farklı. Although'dan sonra tam cümle gelir. Despite'tan sonra isim veya V-ing. Although it was raining, they continued. Despite the rain, they continued. The fact that görürsen Despite da cümle alır. Tuzağa düşme. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "ALTHOUGH vs DESPITE",
+    "formula": "ALTHOUGH + Cümle (S+V)\nDESPITE + İsim / V-ing",
+    "example": "Although it was raining, they continued.\nDespite the rain, they continued.",
+    "exampleHighlight": "Although / Despite",
+    "tip": "\"The fact that\" görürsen DESPITE de\ncümle alır. Tuzağa düşme!",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": 9,
+  "type": "lesson",
+  "title": "Comma Splice",
+  "voiceover": "However, Therefore, Moreover, Furthermore. Bu kelimeler virgülle iki cümleyi bağlayamaz. Tea virgül however virgül coffee yanlış. Tea noktalı virgül however virgül coffee doğru. Bu hatanın adı Comma Splice. Sınavda anında eler. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "COMMA SPLICE",
+    "formula": "However / Therefore / Moreover / Furthermore\n→ VİRGÜLLE bağlanamaz!",
+    "example": "❌ ...tea, however, coffee...\n✅ ...tea; however, coffee...",
+    "exampleHighlight": "; however,",
+    "tip": "Bu hatanın adı Comma Splice.\nSınavda anında eler!",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

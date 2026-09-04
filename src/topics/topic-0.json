@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "type": "intro",
+  "title": "Tanıtım",
+  "voiceover": "Bu videoyu izliyorsunuz. Demek ki YDS sizi de yaktı. Kurs parası. Kitap parası. Deneme parası. Ve sonuç? Aynı hüsran. Aynı puan. Aynı hayal kırıklığı. Peki ya sistem yanlışsa? Ya problem İngilizceniz değil, baktığınız yer ise? YDS bir dil sınavı değil. Sinyal sınavı. Doğru yere bak. Doğru kelimeyi gör. Şıkkı vur. Bitti. Although görürsen sağa bak, cümle mi? Bağlaç. Despite görürsen, isim mi? Edat. BY görürsen, Passive. 3 saniye. Her soru. Bu sistemi öğrenenler sıfırdan 60 aldı. Aylarca değil, haftalar içinde. Ve şimdi bu sistem Türkiye'de ilk kez tamamen ücretsiz açıldı. Reklam yok. Kayıt yok. Ücret yok. Hiçbir şey yok. Sadece bir dua, bu kubbede hoş bir seda bırakmak. sinyal-avcisi.com'a girin. Yapay zeka mentor DILA sizi karşılıyor. 160 soru bankası, 22 altın kural kartı, 100 akademik kelime, 10 ders modülü. Hepsi sizin. Hepsi ücretsiz. Hepsi şimdi. Bu videoyu izleyip geçenler var. Girenler var. Farkı sınav sonuçlarında göreceksiniz. Sinyal Avcısı. Sinyali yakala. Sınavı geç. Hayatını değiştir. Hak ettiğin yere gel.",
+  "slides": [
+    { "text": "BU VİDEOYU İZLİYORSUNUZ.\nDEMEK Kİ YDS SİZİ DE YAKTI." },
+    { "text": "KURS PARASI. KİTAP PARASI.\nDENEME PARASI.\nVE SONUÇ? AYNI HÜSRAN." },
+    { "text": "PEKİ YA SİSTEM YANLIŞSA?\nPROBLEM İNGİLİZCENİZ DEĞİL —\nBAKTIĞINIZ YER." },
+    { "text": "YDS BİR DİL SINAVI DEĞİL.\nSİNYAL SINAVI.\nDOĞRU YERE BAK. ŞIKKI VUR. BİTTİ." },
+    { "text": "ALTHOUGH → CÜMLE.\nDESPITE → İSİM.\nBY → PASİF.\n3 SANİYE. HER SORU." },
+    { "text": "BU SİSTEMİ ÖĞRENENLER\nSIFIRDAN 60 ALDI.\nHAFTALAR İÇİNDE." },
+    { "text": "TAMAMEN ÜCRETSİZ. REKLAM YOK.\nKAYIT YOK. ÜCRET YOK.\nSADECE BİR DUA —\nBU KUBBEDE HOŞ BİR SEDA BIRAKMAK." },
+    { "text": "SİNYAL-AVCİSİ.COM\nDILA SİZİ BEKLİYOR.\n160 SORU. 22 ALTIN KURAL. 100 KELİME." },
+    { "text": "BU VİDEOYU İZLEYİP GEÇENLER VAR.\nGİRENLER VAR.\nFARKI SINAV SONUÇLARINDA GÖRECEKLER." },
+    { "text": "SİNYAL AVCISI.\nSİNYALİ YAKALA. SINAVI GEÇ.\nHAYATINI DEĞİŞTİR.\nHAK ETTİĞİN YERE GEL." }
+  ]
+}

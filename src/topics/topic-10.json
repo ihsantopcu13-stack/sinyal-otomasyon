@@ -1,0 +1,14 @@
+{
+  "id": 10,
+  "type": "lesson",
+  "title": "Noun Clause",
+  "voiceover": "Noun Clause üç sinyal. That, olduğunu anlamı. He said that he was tired. What, ne sorusuna cevap. Tell me what you did. If veya Whether, evet hayır sorusu. I wonder if he will come. Say think believe, then that. Ask wonder not sure, then if. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "NOUN CLAUSE",
+    "formula": "THAT → olduğunu | WHAT → ne\nIF / WHETHER → mi / mı",
+    "example": "He said that he was tired.\nI wonder if he will come.",
+    "exampleHighlight": "that / if",
+    "tip": "say/think/believe → THAT\nask/wonder/not sure → IF / WHETHER",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

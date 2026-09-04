@@ -1,0 +1,10 @@
+node_modules/
+out/
+dist/
+.remotion/
+public/audio/*.mp3
+public/audio/*.meta.json
+.env
+.env.local
+*.log
+.DS_Store

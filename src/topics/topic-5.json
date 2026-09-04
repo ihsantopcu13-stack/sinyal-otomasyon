@@ -1,0 +1,14 @@
+{
+  "id": 5,
+  "type": "lesson",
+  "title": "Unless",
+  "voiceover": "Unless, if not demektir. Unless you study, you will fail. Çalışmazsan başarısız olursun. Dikkat: Unless zaten olumsuz. Yanına bir daha not ekleme. Unless you don't study yanlış. Unless you study doğru. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "UNLESS",
+    "formula": "UNLESS = IF NOT",
+    "example": "Unless you study, you will fail.",
+    "exampleHighlight": "Unless",
+    "tip": "UNLESS zaten olumsuz! Yanına \"not\" ekleme.\n❌ Unless you don't study\n✅ Unless you study",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

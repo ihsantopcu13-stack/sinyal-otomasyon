@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "type": "lesson",
+  "title": "Passive Voice",
+  "voiceover": "Bugünün konusu Passive Voice. Formül: BE artı V3. Am, is, are, was, were, will be. Bunlardan birini görürsen dur. Cümlede BY varsa Passive sinyali. The door was closed by him. Was closed, BE artı V3, Passive. Will be artı V1 olmaz, her zaman V3. Daha fazlası için sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "PASSIVE VOICE",
+    "formula": "BE + V3\nam / is / are / was / were / will be",
+    "example": "The door was closed by him.",
+    "exampleHighlight": "was closed",
+    "tip": "Cümlede BY varsa → Passive sinyali.\nWill be + V1 ASLA olmaz, her zaman V3.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

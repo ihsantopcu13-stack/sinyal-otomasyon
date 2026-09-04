@@ -1,0 +1,14 @@
+{
+  "id": 8,
+  "type": "lesson",
+  "title": "BEBEK Sistemi",
+  "voiceover": "BEBEK sistemi ile soruyu yirmi saniyede çöz. B, boşluktan sonraya bak. E, etiketi koy. B, böl cümleyi. E, ele yanlış şıkları. K, karar ver. Kalan şık doğrudur. Boşluk ne istiyorsa o kazanır. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "BEBEK SİSTEMİ",
+    "formula": "B → Bak | E → Etiketle | B → Böl\nE → Ele | K → Karar ver",
+    "example": "Boşluktan sonrasına bak:\nS+V mi, isim mi?",
+    "exampleHighlight": "Bak",
+    "tip": "20 saniyede çöz.\nBoşluk ne istiyorsa o kazanır!",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

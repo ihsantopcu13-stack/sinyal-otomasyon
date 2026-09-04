@@ -1,0 +1,14 @@
+{
+  "id": 6,
+  "type": "lesson",
+  "title": "Relative Clauses",
+  "voiceover": "Beş saniyede seç. Kişi için who. Şey için which. Yer için where. Zaman için when. Sahiplik için whose. The student who scored highest. The car which I bought. The man whose car was stolen. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "RELATIVE CLAUSES",
+    "formula": "WHO → kişi | WHICH → şey\nWHERE → yer | WHEN → zaman\nWHOSE → sahiplik",
+    "example": "The student who scored highest.\nThe car which I bought.",
+    "exampleHighlight": "who / which",
+    "tip": "The man whose car was stolen.\nWHOSE = sahiplik sinyali!",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}
