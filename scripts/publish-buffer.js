@@ -160,6 +160,18 @@ async function main() {
   const dateTag = `video-${todayIsoDate()}`;
 
   if (!GITHUB_TOKEN || !GITHUB_REPOSITORY) {
+    // GitHub Actions'ın kendisi process.env.CI = 'true' set eder. CI
+    // içindeyken token eksikse bu bir yapılandırma hatasıdır ve SESSİZCE
+    // geçilmemeli — aksi halde iş akışı "başarılı" görünür ama hiçbir şey
+    // yayınlanmaz (workflow'daki env.GITHUB_TOKEN satırı unutulursa tam
+    // olarak bu olur — bkz. commit geçmişi). Yerel geliştirmede (CI yok)
+    // nazikçe atlanır.
+    if (process.env.CI) {
+      throw new Error(
+        'GITHUB_TOKEN tanımlı değil. Workflow dosyasındaki job env bloğuna ' +
+          '`GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}` eklendiğinden emin olun.',
+      );
+    }
     console.warn(
       '[publish-buffer] GITHUB_TOKEN/GITHUB_REPOSITORY yok (yerel ortam) — GitHub Release yükleme ve Buffer paylaşımı atlanıyor. ' +
         `Render edilen dosya: ${videoPath}`,

@@ -23,6 +23,13 @@ jobs:
       BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
       BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
       TOPIC_INDEX: ${{ inputs.topicIndex }}
+      # publish-buffer.js GITHUB_TOKEN'ı GitHub Release oluşturup video
+      # asset'i yüklemek için kullanır. GITHUB_REPOSITORY runner'da otomatik
+      # gelir ama GITHUB_TOKEN job env'ine elle geçirilmezse process.env'de
+      # BULUNMAZ — script bunu "yerel ortam" sanıp yayın adımını sessizce
+      # atlar (exit 0). Bu satır olmadan job "başarılı" görünse de hiçbir
+      # şey yayınlanmaz.
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Repo'yu al
         uses: actions/checkout@v4
