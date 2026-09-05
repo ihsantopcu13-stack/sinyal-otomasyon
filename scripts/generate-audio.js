@@ -13,7 +13,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseBuffer } from 'music-metadata';
-import { loadTodaysTopic } from './lib/topics.js';
+import { loadTodaysTopic, loadTopic } from './lib/topics.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_AUDIO_DIR = path.join(__dirname, '..', 'public', 'audio');
@@ -54,7 +54,17 @@ async function synthesize(text) {
 }
 
 async function main() {
-  const { dayNumber, topicIndex, topic } = await loadTodaysTopic();
+  // render-video.js ve publish-buffer.js ile AYNI override deseni —
+  // workflow_dispatch'in topicIndex input'u TOPIC_INDEX env'i olarak
+  // geliyor. Bu satır olmadan (önceki hal) elle bir konu seçilse bile ses
+  // hep GÜNÜN konusu için üretiliyordu; render-video.js ise override'ı
+  // uyguluyordu, bu yüzden ses ile video farklı konulara ait oluyor,
+  // hatta meta.json ismi tutmadığı için render sessiz kalıyordu.
+  const overrideIndex = process.env.TOPIC_INDEX ? Number(process.env.TOPIC_INDEX) : undefined;
+  const { dayNumber, topicIndex: todaysIndex, topic: todaysTopic } = await loadTodaysTopic();
+  const topicIndex = overrideIndex ?? todaysIndex;
+  const topic = overrideIndex !== undefined ? await loadTopic(overrideIndex) : todaysTopic;
+
   console.log(`[generate-audio] gün=${dayNumber} konu=${topicIndex} (${topic.title})`);
 
   const audioBuffer = await synthesize(topic.voiceover);
