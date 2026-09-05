@@ -9,8 +9,11 @@ paylaşılır.
 
 - **Node.js** (ESM) + **Remotion** — video render
 - **ElevenLabs API** — Türkçe seslendirme
-- **Buffer API** — Instagram paylaşımı (video, GitHub Release üzerinden barındırılan
-  bir URL ile paylaşılır — Buffer'ın klasik API'si dosya upload'ı değil, URL kabul eder)
+- **Buffer GraphQL API** (`api.buffer.com`) — Instagram paylaşımı. Buffer'ın
+  klasik REST API'si (`api.bufferapp.com/1`) 1 Şubat 2027'de kapanıyor ve yeni
+  anahtarlarla çalışmıyor; video, GitHub Release üzerinden barındırılan bir
+  URL ile `assets[].video.url` alanına verilir (GraphQL API dosya upload'ı
+  desteklemiyor)
 - **GitHub Actions** — günlük otomasyon (07:00 TR saatiyle çalışır, 08:00'de paylaşılacak
   şekilde zamanlanır)
 
@@ -100,9 +103,9 @@ render edilen dosyanın yolu loglanır.
 
 | Secret | Açıklama |
 |---|---|
-| `ELEVENLABS_API_KEY` | ElevenLabs API anahtarı |
-| `BUFFER_ACCESS_TOKEN` | Buffer erişim token'ı |
-| `BUFFER_CHANNEL_ID` | Buffer'daki Instagram kanalının profile ID'si |
+| `ELEVENLABS_API_KEY` | ElevenLabs API anahtarı (Profile → API Keys'te oluşturulan, `sk_` ile başlayan değer — panelde görünen kısa "key ID" değil) |
+| `BUFFER_ACCESS_TOKEN` | Buffer **GraphQL** API anahtarı (Buffer → Settings → API'den oluşturulur; eski REST API'nin "access token"ından farklıdır) |
+| `BUFFER_CHANNEL_ID` | Opsiyonel — verilmezse bağlı Instagram kanalı otomatik bulunur (`findInstagramChannel()`). Verilecekse GraphQL `channels()` sorgusundan dönen `id` olmalı, eski REST `profile_id` değil |
 
 `GITHUB_TOKEN` GitHub Actions tarafından otomatik sağlanır, ek bir şey yapmanıza
 gerek yok — sadece workflow'daki `permissions: contents: write` release oluşturup
