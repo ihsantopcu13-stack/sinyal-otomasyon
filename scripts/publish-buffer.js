@@ -176,6 +176,12 @@ function scheduledAtIso() {
 
 async function publishToBuffer(channelId, videoUrl, caption) {
   const dueAt = scheduledAtIso();
+  // Instagram, InstagramPostMetadataInput.type ve .shouldShareToFeed
+  // alanlarını ZORUNLU kılıyor (canlı testte "Instagram posts require a
+  // type (post, story, or reel)" hatasıyla ortaya çıktı — reference.html'de
+  // PostType! ve Boolean! olarak doğrulandı). Video 1080x1920 dikey formatta
+  // (Reels için) üretildiği için type: reel, ve ana akışta da görünsün diye
+  // shouldShareToFeed: true kullanılıyor.
   const mutation = `
     mutation {
       createPost(input: {
@@ -185,6 +191,7 @@ async function publishToBuffer(channelId, videoUrl, caption) {
         mode: customScheduled
         dueAt: "${dueAt}"
         assets: [{ video: { url: "${videoUrl}" } }]
+        metadata: { instagram: { type: reel, shouldShareToFeed: true } }
       }) {
         ... on PostActionSuccess {
           post { id text dueAt status }
