@@ -16,9 +16,22 @@ import topic7 from './topics/topic-7.json';
 import topic8 from './topics/topic-8.json';
 import topic9 from './topics/topic-9.json';
 import topic10 from './topics/topic-10.json';
+import topic11 from './topics/topic-11.json';
+import topic12 from './topics/topic-12.json';
+import topic13 from './topics/topic-13.json';
+import topic14 from './topics/topic-14.json';
+import topic15 from './topics/topic-15.json';
+import topic16 from './topics/topic-16.json';
+import topic17 from './topics/topic-17.json';
+import topic18 from './topics/topic-18.json';
+import topic19 from './topics/topic-19.json';
+import topic20 from './topics/topic-20.json';
 
 const introTopic = topic0 as unknown as IntroTopic;
-const lessonTopics = [topic1, topic2, topic3, topic4, topic5, topic6, topic7, topic8, topic9, topic10] as unknown as LessonTopic[];
+const lessonTopics = [
+  topic1, topic2, topic3, topic4, topic5, topic6, topic7, topic8, topic9, topic10,
+  topic11, topic12, topic13, topic14, topic15, topic16, topic17, topic18, topic19, topic20,
+] as unknown as LessonTopic[];
 
 function makeCalculateMetadata<T extends VideoProps>(): CalculateMetadataFunction<T> {
   // Ses üretilmeden önce (Studio önizlemesi, generate-audio.js çalışmadan)

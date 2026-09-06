@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       topicIndex:
-        description: 'Belirli bir konu indeksi ile test et (0-10, boş bırakılırsa günün konusu seçilir)'
+        description: 'Belirli bir konu indeksi ile test et (0-20, boş bırakılırsa günün konusu seçilir)'
         required: false
         type: string
 

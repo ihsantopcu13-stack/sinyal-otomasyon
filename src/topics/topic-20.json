@@ -1,0 +1,14 @@
+{
+  "id": 20,
+  "type": "lesson",
+  "title": "Psikoloji Terminolojisi",
+  "voiceover": "YDS Sosyal metinlerinde en sık çıkan alan psikoloji. On temel terimi öğren. Behavior, davranış. Cognition, biliş ve zihinsel süreçler. Perception, algı. Stimulus, uyaran. Response, tepki. Reinforcement, pekiştirme. Attachment, bağlanma. Conditioning, koşullanma. Bias, önyargı. Trait, kişilik özelliği. Researchers conducted a survey gibi sabit collocation'lara dikkat et, conduct ve survey birlikte kullanılır. Bu kelimeleri bilmek, metni anlamasan bile doğru şıkka yaklaştırır. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "PSİKOLOJİ TERMİNOLOJİSİ",
+    "formula": "behavior=davranış | cognition=biliş | perception=algı\nstimulus=uyaran | response=tepki | bias=önyargı",
+    "example": "\"Researchers conducted a survey.\"\n→ conduct + survey = sabit collocation",
+    "exampleHighlight": "conduct a survey",
+    "tip": "reinforcement=pekiştirme, attachment=bağlanma,\nconditioning=koşullanma, trait=kişilik özelliği.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

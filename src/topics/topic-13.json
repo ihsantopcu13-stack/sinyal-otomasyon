@@ -1,0 +1,14 @@
+{
+  "id": 13,
+  "type": "lesson",
+  "title": "ÖSYM Şablon Sistemi",
+  "voiceover": "ÖSYM soruları hep aynı iskeletlerle gelir. Şablonu görürsen anlamasan bile doğru cümleyi seçersin. En sık çıkan şablon CZ-REF. Giriş cümlesi konuyu verir. Sonraki cümle aynı özneyle devam eder. Sonra bir şeytan gelir, akademik görünümlü ama konu dışı bir cümle. Consequently ile ana hikayeye geri döner, şeytanı ele verir. Son cümlede This, ikinci cümledeki sürece işaret eder. Üç tuzağa dikkat et. Referans tuzağı, they veya this kime işaret ediyor. Bağlaç tuzağı, consequently ana zincire dönüş kapısıdır. Konu dışı şeytan, kelimeler havalı ama konu yok. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "ÖSYM ŞABLON SİSTEMİ",
+    "formula": "CZ-REF ŞABLONU:\nGİRİŞ → AYNI ÖZNE → 👹 ŞEYTAN → CONSEQUENTLY (döner) → SONUÇ",
+    "example": "Şeytan: akademik görünümlü ama\nkonu dışı bir cümle (pharmaceutical companies vb.)",
+    "exampleHighlight": "👹 Şeytan",
+    "tip": "3 tuzak: Referans (they/this kime?),\nBağlaç (consequently=dönüş kapısı), Konu dışı şeytan.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

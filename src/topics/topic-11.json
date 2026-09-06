@@ -1,0 +1,14 @@
+{
+  "id": 11,
+  "type": "lesson",
+  "title": "DNA Testi — Fiil Avı",
+  "voiceover": "Boşluktan sonraki parçada tek bir soru sor: fiil var mı? Varsa cümle gelir, C de. Yoksa isim öbeği gelir, N de. Because, although, even though sonrasında fiil olur, cümle gelir. Because of, due to, despite sonrasında fiil olmaz, isim gelir. Tek istisna: the fact that. O bir kapı gibidir, arkasından her zaman cümle gelir. Was, were, is, are, has, have, had, -ed, -s gördün mü? Orası cümle. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "DNA TESTİ — FİİL AVI",
+    "formula": "BOŞLUKTAN SONRA FİİL VAR MI?\nVARSA → C (Clause) | YOKSA → N (Noun Phrase)",
+    "example": "C: because / although / even though\nN: because of / due to / despite",
+    "exampleHighlight": "fiil var mı?",
+    "tip": "İstisna: \"the fact that\" → kapı gibi, arkasından\nHER ZAMAN cümle (Clause) gelir.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

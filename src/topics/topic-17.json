@@ -1,0 +1,14 @@
+{
+  "id": 17,
+  "type": "lesson",
+  "title": "Referans Takibi Tekniği",
+  "voiceover": "Refers to sorularında dört adım var. Önce sorudaki zamiri, it, this, they, such, metindeki yerinde bul. Sonra zamirin hemen öncesindeki cümleye veya isim öbeğine bak. Zamirin tekil mi çoğul mu olduğuna göre adayı daralt: it tekildir, they çoğuldur. Son olarak bulduğun adayı zamirin yerine koyup cümleyi tekrar oku, anlam bozulmuyorsa doğrudur. En büyük tuzak, zamire en yakın kelimeyi otomatik doğru sanmak. Bazen birkaç kelime öncesine gitmek gerekir. This ve such gibi zamirler tek bir kelimeye değil, önceki cümlenin tamamına da atıfta bulunabilir. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "REFERANS TAKİBİ TEKNİĞİ",
+    "formula": "1) Zamiri (it/this/they/such) metinde bul\n2) Hemen ÖNCESİNDEKİ cümleye/isme bak\n3) Tekil/çoğul uyumuna göre daralt",
+    "example": "Adayı zamirin yerine koyup cümleyi\ntekrar oku — anlam bozulmuyorsa doğrudur.",
+    "exampleHighlight": "refers to",
+    "tip": "Tuzak: en yakın kelimeyi otomatik doğru sanmak.\n\"This/such\" bazen ÖNCEKİ CÜMLENİN TAMAMINA atıfta bulunur.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

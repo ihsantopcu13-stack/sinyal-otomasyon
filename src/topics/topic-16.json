@@ -1,0 +1,14 @@
+{
+  "id": 16,
+  "type": "lesson",
+  "title": "Bağlamdan Kelime Tekniği",
+  "voiceover": "Bilmediğin kelimeyi sözlüksüz bulma tekniği. Önce kelimenin öncesinde veya sonrasında bir zıtlık bağlacı var mı bak: but, however, although. Zıtlık varsa cümledeki bilinen kısmın tersi bir anlam ara. Ekleme bağlacı varsa, and, moreover, bilinen kısımla aynı yönde bir anlam ara. Sonra kelimeyi seçeneklerle tek tek değiştirip cümleyi tekrar oku, anlamı bozmayan doğru cevaptır. En büyük tuzak, kelimenin günlük en yaygın anlamını seçmek. YDS'de kelimeler genelde metne özel ikinci bir anlamda kullanılır. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "BAĞLAMDAN KELİME TEKNİĞİ",
+    "formula": "1) Zıtlık bağlacı var mı? (but/however/although)\n2) Varsa → TERS anlam | Ekleme (and/moreover) varsa → AYNI yön anlam",
+    "example": "Kelimeyi seçeneklerle değiştirip\ncümleyi tekrar oku — anlamı bozmayan doğru cevaptır.",
+    "exampleHighlight": "closest in meaning",
+    "tip": "Tuzak: kelimenin GÜNLÜK anlamını seçmek —\nYDS'de kelimeler genelde metne özel 2. anlamda kullanılır.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

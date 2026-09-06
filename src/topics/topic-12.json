@@ -1,0 +1,14 @@
+{
+  "id": 12,
+  "type": "lesson",
+  "title": "Trigger Sistemi",
+  "voiceover": "Zaman tetikleyicilerini ezberle. Ago, last, yesterday gördün mü, Past Simple. Since, for, already, yet gördün mü, Present Perfect gelir. By the time artı geçmiş, Had V3. By the time artı gelecek, Will have V3. Bağlaç tetikleyicileri de var. Of gördün mü isim gelir. That gördün mü cümle gelir. Noktalı virgül gördün mü, however, therefore, moreover gelir. Unless zaten olumsuz, yanına not ekleme. Comma splice'a dikkat, virgülle however bağlanmaz. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "TRIGGER SİSTEMİ",
+    "formula": "AGO/LAST/YESTERDAY → Past Simple\nSINCE/FOR/ALREADY/YET → Present Perfect\nBY THE TIME + geçmiş → Had V3 | + gelecek → Will have V3",
+    "example": "of → isim gelir | that → cümle gelir\nnoktalı virgül (;) → however/therefore/moreover",
+    "exampleHighlight": "of / that / ;",
+    "tip": "UNLESS zaten olumsuz, yanına \"not\" ekleme.\nComma splice: virgülle however bağlanmaz.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

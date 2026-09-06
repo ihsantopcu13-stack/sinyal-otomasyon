@@ -1,0 +1,14 @@
+{
+  "id": 18,
+  "type": "lesson",
+  "title": "Negatif Soru Tekniği",
+  "voiceover": "Not veya Except gördüğün soruda mantık tersine döner. Dört seçenekten üçü metinde doğru olarak geçer, sadece biri geçmez veya yanlıştır. Her seçeneği tek tek metinde ara ve doğrulananları ele. Doğrulayamadığın veya metinle çelişen tek seçenek cevabındır. Metni baştan sona tekrar okuma, seçenek seçenek metinde arama yap, bu çok daha hızlıdır. En büyük tuzak, sorudaki not veya except kelimesini gözden kaçırıp normal soru gibi doğru olanı aramak. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "NEGATİF SORU (NOT / EXCEPT)",
+    "formula": "4 seçenekten 3'ü metinde DOĞRU geçer,\nsadece 1'i geçmez/yanlıştır — O senin cevabın.",
+    "example": "\"Which of the following is NOT mentioned...\"\n→ seçenekleri sırayla metinde ara, 3'ünü çarpı koy.",
+    "exampleHighlight": "NOT / EXCEPT",
+    "tip": "Tuzak: NOT/EXCEPT kelimesini gözden kaçırıp\nnormal soru gibi \"doğru olanı\" aramak.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

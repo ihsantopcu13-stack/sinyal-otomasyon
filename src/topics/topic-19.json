@@ -1,0 +1,14 @@
+{
+  "id": 19,
+  "type": "lesson",
+  "title": "Tuzak Seçenek Eleme Tekniği",
+  "voiceover": "Which best completes sorularında beş adımda eleme yap. Önce seçeneklerde always, never, only, all, none gibi kesinlik bildiren kelimeleri işaretle, genelde tuzaktır. Sonra metindeki bilgiyle tam tersi anlam taşıyan seçeneği ele. Metnin sadece küçük bir kısmını kapsayan veya çok ötesine geçen seçenekleri ele. Doğru ama metinde yazmayan, dış bilgiden gelen seçenekleri ele. Kalan seçeneği cümleye yerleştirip anlam ve dilbilgisi uyumunu kontrol et. En büyük tuzak, kulağa doğru gelen ama metinde hiç geçmeyen seçeneği seçmek. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "TUZAK SEÇENEK ELEME",
+    "formula": "1) Extreme words (always/never/only) → ele\n2) Opposite (ters anlam) → ele\n3) Too narrow / too broad → ele",
+    "example": "\"True but not stated\" (doğru ama metinde\nyazmayan, dış bilgi) seçenekleri de ele.",
+    "exampleHighlight": "which best completes",
+    "tip": "Tuzak: \"kulağa doğru gelen\" ama metinde\nhiç geçmeyen seçeneği seçmek.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

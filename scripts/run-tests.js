@@ -1,6 +1,6 @@
 // Hafif, API anahtarı gerektirmeyen doğrulama testleri:
-// - 11 konu dosyasının (topic-0..topic-10) şemasının doğru olduğunu
-// - gün->konu eşlemesinin (mod 11) beklendiği gibi çalıştığını
+// - TOPIC_COUNT kadar konu dosyasının (topic-0..topic-N) şemasının doğru olduğunu
+// - gün->konu eşlemesinin (mod TOPIC_COUNT) beklendiği gibi çalıştığını
 // - frame dağıtım yardımcı fonksiyonunun toplamı koruduğunu
 // doğrular. Gerçek render/API testleri için README'deki manuel adımlara bakın.
 
@@ -38,8 +38,8 @@ test('gün->konu eşlemesi: gün 0 -> tanıtım (0)', () => {
   assert.equal(getTopicIndexForDay(0), 0);
 });
 
-test('gün->konu eşlemesi: gün 11 -> tekrar tanıtım (0)', () => {
-  assert.equal(getTopicIndexForDay(11), 0);
+test(`gün->konu eşlemesi: gün ${TOPIC_COUNT} -> tekrar tanıtım (0)`, () => {
+  assert.equal(getTopicIndexForDay(TOPIC_COUNT), 0);
 });
 
 test('gün->konu eşlemesi: gün 1..10 -> konu 1..10', () => {

@@ -1,0 +1,14 @@
+{
+  "id": 15,
+  "type": "lesson",
+  "title": "Skimming & Scanning",
+  "voiceover": "Zaman baskısını sıfırlayan iki teknik. Skimming, paragrafın ilk ve son cümlesini okuyarak, her paragrafın ilk kelimesine göz gezdirerek metnin ana fikrini kırk beş ile altmış saniyede yakalama tekniğidir. Detaylara takılma. Scanning ise tarih, sayı veya isim arayan sorularda kullanılır, metni baştan okumazsın, sadece aradığın rakamı veya özel ismi taramak için gözünü hızlıca gezdirirsin. Ana fikir sorusunda skimming yeter. Detay sorusunda scanning kullan. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "SKIMMING & SCANNING",
+    "formula": "SKIMMING: ilk + son cümle → ANA FİKİR (45-60sn)\nSCANNING: tarih/sayı/isim → DETAY taraması",
+    "example": "Ana Fikir sorusu → Skimming yeterli\nDetay/tarih/sayı sorusu → Scanning kullan",
+    "exampleHighlight": "Skimming / Scanning",
+    "tip": "Her kelimeyi çevirmeye çalışmak zaman kaybettirir —\nYDS'nin süre baskısındaki en büyük tuzak budur.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}
