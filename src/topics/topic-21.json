@@ -1,0 +1,14 @@
+{
+  "id": 21,
+  "type": "lesson",
+  "title": "Kelime Türleri & S+V+O",
+  "voiceover": "Her cümlenin bir iskeleti vardır: özne, fiil, nesne. Önce fiili bul, gerisi kolay. Researchers examine data. Fiil hangisi? Examine. O zaman özne researchers, nesne data. Governments provide public services. Fiil provide. Özne governments, nesne public services. Uzun bile olsa her cümlede bu üçlüyü ara. Sıfat ve zarf seni oyalayabilir ama iskeleti değiştirmez. Önce çeviri yapma, önce fiili avla. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "KELİME TÜRLERİ & S+V+O",
+    "formula": "HER CÜMLEDE ÖNCE FİİLİ BUL.\nÖZNE (kim/ne) + FİİL (ne yapıyor) + NESNE (neyi)",
+    "example": "Researchers examine data.\nGovernments provide public services.",
+    "exampleHighlight": "examine / provide",
+    "tip": "Sıfat ve zarf (rapid, carefully) seni oyalar\nama iskeleti DEĞİŞTİRMEZ — önce fiili avla.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

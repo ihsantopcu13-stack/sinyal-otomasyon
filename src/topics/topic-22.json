@@ -1,0 +1,14 @@
+{
+  "id": 22,
+  "type": "lesson",
+  "title": "Uzun Cümlede İskelet",
+  "voiceover": "Cümle uzayınca panikleme, iskelet hep aynı yerde duruyor. The rapid increase in global temperatures has affected ecosystems. Uzun görünüyor ama fiili bul: has affected. Peki özne kim? Increase. Nesne ne? Ecosystems. Rapid, global, in temperatures hepsi süsleme, iskeleti değiştirmiyor. Many students carefully read scientific books. Fiil read. Özne students, nesne books. Many ve carefully ve scientific sadece detay. Uzun cümleden korkma, önce kemiği bul. Daha fazlası sinyal-avcisi.com. Odaklan ve kazan.",
+  "slides": {
+    "title": "UZUN CÜMLEDE İSKELET",
+    "formula": "UZUN CÜMLE = SÜSLENMİŞ KISA CÜMLE.\nSıfat/zarf/tamlama çıkar, geriye S+V+O kalır.",
+    "example": "The rapid increase in global temperatures\nhas affected ecosystems.",
+    "exampleHighlight": "increase → has affected → ecosystems",
+    "tip": "Many students carefully read scientific books.\nMany/carefully/scientific = süsleme, iskelet değil.",
+    "outro": "ODAKLAN VE KAZAN"
+  }
+}

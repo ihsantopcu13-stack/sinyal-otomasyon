@@ -26,11 +26,15 @@ import topic17 from './topics/topic-17.json';
 import topic18 from './topics/topic-18.json';
 import topic19 from './topics/topic-19.json';
 import topic20 from './topics/topic-20.json';
+import topic21 from './topics/topic-21.json';
+import topic22 from './topics/topic-22.json';
+import topic23 from './topics/topic-23.json';
 
 const introTopic = topic0 as unknown as IntroTopic;
 const lessonTopics = [
   topic1, topic2, topic3, topic4, topic5, topic6, topic7, topic8, topic9, topic10,
   topic11, topic12, topic13, topic14, topic15, topic16, topic17, topic18, topic19, topic20,
+  topic21, topic22, topic23,
 ] as unknown as LessonTopic[];
 
 function makeCalculateMetadata<T extends VideoProps>(): CalculateMetadataFunction<T> {

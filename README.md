@@ -22,7 +22,7 @@ paylaşılır.
 ```
 sinyal-otomasyon/
 ├── src/
-│   ├── topics/          topic-0.json (tanıtım) .. topic-20.json (20 ders konusu)
+│   ├── topics/          topic-0.json (tanıtım) .. topic-23.json (23 ders konusu)
 │   ├── components/      Remotion slide bileşenleri
 │   ├── lib/timing.js    frame dağıtım yardımcıları
 │   ├── theme.ts         renkler, süre sabitleri
@@ -30,7 +30,7 @@ sinyal-otomasyon/
 │   ├── Root.tsx          Composition kayıtları (video-0 .. video-10)
 │   └── index.ts          Remotion entry point
 ├── scripts/
-│   ├── lib/topics.js     gün->konu eşlemesi (gün sayısı mod 21)
+│   ├── lib/topics.js     gün->konu eşlemesi (gün sayısı mod 24)
 │   ├── generate-audio.js ElevenLabs TTS
 │   ├── render-video.js   Remotion render
 │   ├── publish-buffer.js GitHub Release + Buffer paylaşımı
@@ -41,8 +41,8 @@ sinyal-otomasyon/
 ## Konu seçimi
 
 `scripts/lib/topics.js` içindeki `EPOCH_DATE_UTC` (bu reponun kurulduğu tarih) ile
-bugün arasındaki gün farkı `mod 21` alınır: **gün 0 → tanıtım videosu (topic-0)**,
-gün 1..20 → sırasıyla 20 ders konusu, gün 21'de tekrar tanıtıma dönülür. Harici bir
+bugün arasındaki gün farkı `mod 24` alınır: **gün 0 → tanıtım videosu (topic-0)**,
+gün 1..23 → sırasıyla 23 ders konusu, gün 24'te tekrar tanıtıma dönülür. Harici bir
 durum dosyasına ihtiyaç yoktur; hesaplama tarihe göre deterministiktir.
 
 Belirli bir konuyu elle test etmek için `TOPIC_INDEX=3` ortam değişkenini set edin
